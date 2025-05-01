@@ -91,3 +91,9 @@ h1 {
   background-color: #dddddd;
   transform: scale(1.05);
 }
+
+.coinmarketcap-currency-widget{
+  background-color: #202020ed;
+  color: #d9ff00;
+  
+}
