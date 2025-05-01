@@ -1,1 +1,105 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
 
+.liquidity-section {
+    width: 100%;
+    padding: 0 5%;
+    margin-bottom: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+#Heading {
+    font-size: 60px;
+    padding: 10px 10px;
+    text-align: center;
+    color: #000000;
+    background: linear-gradient(to right, #8247e5, #f3ba2f, #8247e5, #627eea, #ff0033);
+    background-size: 300% 100%;
+    animation: gradientMove 8s infinite;
+    border-radius: 15px; 
+    width: 100%;
+    font-weight: bolder;
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    75% {
+        background-position: 50% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+h1 {
+    font-size: 32px;
+    padding: 10px 20px;
+    text-align: center;
+    color: #04ff00;
+    background-color: #222222;
+    border-radius: 10px;
+    width: 100%;
+}
+
+#polygon-container h2 {
+    background-color: #6a0dad;
+}
+
+#unichain-container h2 {
+    background-color: #ff1493;
+}
+
+.iframe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.iframe-box {
+    width: 80%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 30px;
+    border: none;
+    position: relative;
+}
+
+#polygon-container .iframe-box {
+    background-color: #6a0dad;
+}
+
+#unichain-container .iframe-box {
+    background-color: #ff1493;
+}
+
+.box-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+iframe {
+    width: 80%;
+    height: 600px;
+    border-radius: 20px;
+    border: none;
+}
