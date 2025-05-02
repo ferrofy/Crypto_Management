@@ -3,7 +3,7 @@ const links_POL = {
     "wETH/USDT_POL": "https://app.uniswap.org/positions/v3/polygon/2508320",
     "wMATIC/USDT_POL": "https://app.uniswap.org/positions/v3/polygon/2508316",
     "LINK/USDC_POL": "https://app.uniswap.org/positions/v3/polygon/2509716",
-    "VOXEL/USDC_POL": "https://app.uniswap.org/positions/v3/polygon/17318",
+    "VOXEL/USDC_POL": "https://app.uniswap.org/positions/v4/polygon/17318",
     "WWD/USDC_POL": "https://app.uniswap.org/positions/v3/polygon/2516251",
 
     "AAVE/wETH_POL": "https://app.uniswap.org/positions/v3/polygon/2514475",
