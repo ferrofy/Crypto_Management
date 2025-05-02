@@ -121,3 +121,10 @@ h1 {
     background-color: #aaffb0;
     color: #ffffff;
 }
+
+.Horizontal_CMC_Icon {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 15px;
+    padding: 10px;
+}
