@@ -1,10 +1,10 @@
 const links_POL = {
-    "wBTC/USDC_POL": "https://app.uniswap.org/positions/v3/polygon/2509465",
+    "wBTC/USDC.e_POL": "https://app.uniswap.org/positions/v3/polygon/2509465",
     "wETH/USDT_POL": "https://app.uniswap.org/positions/v3/polygon/2508320",
     "wMATIC/USDT_POL": "https://app.uniswap.org/positions/v3/polygon/2508316",
-    "LINK/USDC_POL": "https://app.uniswap.org/positions/v3/polygon/2509716",
+    "LINK/USDC.e_POL": "https://app.uniswap.org/positions/v3/polygon/2509716",
     "VOXEL/USDC_POL": "https://app.uniswap.org/positions/v4/polygon/17318",
-    "WWD/USDC_POL": "https://app.uniswap.org/positions/v3/polygon/2516251",
+    "WWD/USDC.e_POL": "https://app.uniswap.org/positions/v3/polygon/2516251",
 
     "AAVE/wETH_POL": "https://app.uniswap.org/positions/v3/polygon/2514475",
 
@@ -18,6 +18,10 @@ const links_POL = {
     "AIPEPE/wMATIC_POL": "https://app.uniswap.org/positions/v3/polygon/2516238",
     "APEPE/wMATIC_POL": "https://app.uniswap.org/positions/v3/polygon/2504741"
 
+};
+
+const links_ZkSync = {
+    "Comming Soon": "https://ferrofy.github.io/Crypto_Management/Whale/VPX"
 };
 
 const links_UNI = {
