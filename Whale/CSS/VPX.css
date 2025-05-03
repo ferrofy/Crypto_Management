@@ -1,3 +1,28 @@
+.link-box.polygon {
+    background-color: #8045a9;
+    color: #ffffff;
+}
+
+.link-box.unichain {
+    background-color: #ff1493;
+    color: #ffffff;
+}
+
+.link-box.celo {
+    background-color: #eaff00;
+    color: #ffffff;
+}
+
+.link-box.fuse {
+    background-color: #aaffb0;
+    color: #ffffff;
+}
+
+.link-box.zksync {
+    background-color: #e6e6e6;
+    color: #ffffff;
+}
+
 body {
     background-color: #121212;
     color: #ffffff;
@@ -19,7 +44,7 @@ body {
     padding: 10px 10px;
     text-align: center;
     color: #000000;
-    background: linear-gradient(to right, #8045a9, #ff1493, #eaff00, #aaffb0);
+    background: linear-gradient(to right, #8045a9,#e6e6e6, #ff1493, #eaff00, #aaffb0);
     background-size: 300% 100%;
     animation: gradientMove 5s infinite;
     border-radius: 10px;
@@ -100,31 +125,6 @@ h1 {
 .coinmarketcap-currency-widget {
     background-color: #202020ed;
     color: #d9ff00;
-}
-
-.link-box.polygon {
-    background-color: #8045a9;
-    color: #ffffff;
-}
-
-.link-box.unichain {
-    background-color: #ff1493;
-    color: #ffffff;
-}
-
-.link-box.celo {
-    background-color: #eaff00;
-    color: #ffffff;
-}
-
-.link-box.fuse {
-    background-color: #aaffb0;
-    color: #ffffff;
-}
-
-.link-box.zksync {
-    background-color: #e6e6e6;
-    color: #ffffff;
 }
 
 .Horizontal_CMC_Icon {
