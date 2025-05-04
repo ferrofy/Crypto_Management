@@ -23,6 +23,66 @@
     color: #ffffff;
 }
 
+.link-box.arbitrum {
+    background-color: #2D374B;
+    color: #ffffff;
+}
+
+.link-box.base {
+    background-color: #0052ff;
+    color: #ffffff;
+}
+
+.link-box.avax {
+    background-color: #E84142;
+    color: #ffffff;
+}
+
+.link-box.bera {
+    background-color: #6D4D30;
+    color: #ffffff;
+}
+
+.link-box.blast {
+    background-color: #d9ff00;
+    color: #ffffff;
+}
+
+.link-box.cronos {
+    background-color: #3c00ff;
+    color: #ffffff;
+}
+
+.link-box.gnosis {
+    background-color: #007914;
+    color: #ffffff;
+}
+
+.link-box.ink {
+    background-color: #7132F5;
+    color: #ffffff;
+}
+
+.link-box.linea {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.link-box.op {
+    background-color: #FF0420;
+    color: #ffffff;
+}
+
+.link-box.pol_zkevm {
+    background-color: #8045a9;
+    color: #ffffff;
+}
+
+.link-box.scroll {
+    background-color: #FFEC9E;
+    color: #ffffff;
+}
+
 body {
     background-color: #121212;
     color: #ffffff;
@@ -44,9 +104,11 @@ body {
     padding: 10px 10px;
     text-align: center;
     color: #000000;
-    background: linear-gradient(to right, #8045a9,#e6e6e6, #ff1493, #eaff00, #aaffb0);
-    background-size: 300% 100%;
-    animation: gradientMove 5s infinite;
+    background: linear-gradient(to right,
+            #E84142, #FF0420, #FFA500, #eaff00, #007914,
+            #aaffb0, #3c00ff, #0052ff, #7132F5, #ff1493);
+    background-size: 500% 500%;
+    animation: gradientMove 6s infinite;
     border-radius: 10px;
     width: 100%;
     font-weight: bolder;
@@ -70,11 +132,32 @@ body {
     }
 }
 
-h1 {
+.Chain_Heading {
+    font-size: 40px;
+    padding: 10px 0px;
+    text-align: center;
+    justify-content: center;
+    color: #04ff00;
+    background-color: #222222;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.Chain_Top_Heading {
     font-size: 40px;
     padding: 10px 0px;
     text-align: center;
     color: #04ff00;
+    background-color: #222222;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.Chain_Fees {
+    font-size: 25px;
+    padding: 10px 0px;
+    text-align: center;
+    color: #ffffff;
     background-color: #222222;
     border-radius: 10px;
     width: 100%;
@@ -132,4 +215,23 @@ h1 {
     grid-auto-flow: column;
     gap: 15px;
     padding: 10px;
+}
+
+.Liquidity_Entrance {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.Liquidity_Entrance_Heading {
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 10px;
+    background-color: #222222;
+    border-radius: 10px;
+}
+
+.Liquidity_Entrance_Data {
+    color: #000000;
 }
