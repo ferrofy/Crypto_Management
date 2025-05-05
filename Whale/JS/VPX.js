@@ -25,7 +25,7 @@ const links_FUSE = {
     "wETH/USDT_FUSE": "https://voltage.finance/pool/0x06b6949fca3706c25a312c1104b7e4fa11ce0bb6",
     "wFUSE/USDT_FUSE": "https://voltage.finance/pool/0x5e174874c5bc45ba96bd859a6eda4d34ee9f4424",
     "USDT/USDC.e_FUSE": "https://voltage.finance/pool/0x677409b2393e2ca19b454fb904f5e634e21d3d89",
-    "wFUSE/VOLT_FUSE": "https://voltage.finance/pool/0x57827c76d7749961ef41e7918dd9f8cfdfc7d28d"
+    "VOLT/wFUSE_FUSE": "https://voltage.finance/pool/0x57827c76d7749961ef41e7918dd9f8cfdfc7d28d"
 };
 
 const links_ZkSync = {
@@ -37,7 +37,7 @@ const links_UNI = {
 };
 
 const links_CELO = {
-    "CELO/UBE_CELO": "https://app.ubeswap.org/#/pools/5393"
+    "UBE/CELO_CELO": "https://app.ubeswap.org/#/pools/5393"
 };
 
 const links_Arbitrum = {
