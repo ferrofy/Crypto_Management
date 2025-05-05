@@ -94,46 +94,47 @@ body {
 
 .Section {
     width: 100%;
-    padding: 0 5%;
+    padding: 0px;
     margin-bottom: 30px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 #Heading {
-    font-size: 60px;
-    padding: 10px 10px;
+    font-size: 90px;
+    padding: 10px;
     text-align: center;
     color: #000000;
-    background: linear-gradient(to right,
-            #E84142, #FF0420, #FFA500, #eaff00, #007914,
+    background: linear-gradient(to right, #E84142, #FF0420, #FFA500, #eaff00, #007914,
             #aaffb0, #3c00ff, #0052ff, #7132F5, #ff1493);
-    background-size: 500% 500%;
-    animation: gradientMove 6s infinite;
+    background-size: 9999% 9999%;
+    animation: gradientMove 10s infinite ease-in-out;
     border-radius: 10px;
     width: 100%;
     font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @keyframes gradientMove {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    75% {
-        background-position: 50% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
+    0% { background-position: 0%; }
+    10% { background-position: 10%; }
+    20% { background-position: 20%; }
+    30% { background-position: 30%; }
+    40% { background-position: 40%; }
+    50% { background-position: 50%; }
+    60% { background-position: 60%; }
+    70% { background-position: 70%; }
+    80% { background-position: 80%; }
+    90% { background-position: 90%; }
+    100% { background-position: 100%; }
 }
 
+
 .Chain_Heading {
-    font-size: 40px;
+    font-size: 60px;
     padding: 10px 0px;
     text-align: center;
     justify-content: center;
@@ -144,7 +145,7 @@ body {
 }
 
 .Chain_Top_Heading {
-    font-size: 40px;
+    font-size: 60px;
     padding: 10px 0px;
     text-align: center;
     color: #04ff00;
@@ -154,7 +155,7 @@ body {
 }
 
 .Chain_Fees {
-    font-size: 25px;
+    font-size: 30px;
     padding: 10px 0px;
     text-align: center;
     color: #ffffff;
@@ -181,18 +182,18 @@ body {
 }
 
 .box-text {
-    font-size: 24px;
+    font-size: 50px;
     font-weight: bold;
     margin-bottom: 10px;
     background-color: #222222;
     border-radius: 10px;
-    padding: 10px;
+    padding: 10px 100px;
 }
 
 .link-button {
     font-size: 18px;
     font-weight: bold;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 10px;
     background-color: #00bbff;
     color: #000000;
@@ -234,4 +235,25 @@ body {
 
 .Liquidity_Entrance_Data {
     color: #000000;
+}
+
+.Pegged_Crypto_Heading {
+    background-color: wheat;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+.Pegged_Crypto {
+    background-color: rgb(255, 166, 0);
+    color: black;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 45px;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
 }
