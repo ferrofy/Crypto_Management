@@ -108,7 +108,7 @@ body {
     color: #000000;
     background: linear-gradient(to right, #E84142, #FF0420, #FFA500, #eaff00, #007914,
             #aaffb0, #3c00ff, #0052ff, #7132F5, #ff1493);
-    background-size: 9999% 9999%;
+    background-size: 99999% 99999%;
     animation: gradientMove 10s infinite ease-in-out;
     border-radius: 10px;
     width: 100%;
@@ -237,6 +237,15 @@ body {
     color: #000000;
 }
 
+.Pegged_Crypto_Heading {
+    background-color: wheat;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
 .Pegged_Crypto {
     background-color: rgb(255, 166, 0);
     color: black;
@@ -247,13 +256,4 @@ body {
     align-items: center;
     justify-content: center;
     width: 90%;
-}
-
-.Pegged_Crypto_Heading {
-    background-color: wheat;
-    color: black;
-    padding: 10px 10px;
-    border-radius: 10px;
-    font-weight: bolder;
-    font-size: 45px;
 }
