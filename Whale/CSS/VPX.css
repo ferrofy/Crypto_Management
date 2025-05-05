@@ -237,15 +237,6 @@ body {
     color: #000000;
 }
 
-.Pegged_Crypto_Heading {
-    background-color: wheat;
-    color: black;
-    padding: 10px 10px;
-    border-radius: 10px;
-    font-weight: bolder;
-    font-size: 45px;
-}
-
 .Pegged_Crypto {
     background-color: rgb(255, 166, 0);
     color: black;
@@ -256,4 +247,13 @@ body {
     align-items: center;
     justify-content: center;
     width: 90%;
+}
+
+.Pegged_Crypto_Heading {
+    background-color: wheat;
+    color: black;
+    padding: 10px 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 45px;
 }
